@@ -1,15 +1,6 @@
 [submodule "selinux"]
 	path = native/jni/external/selinux
 	url = https://github.com/topjohnwu/selinux.git
-[submodule "su"]
-	path = native/jni/su
-	url = https://github.com/topjohnwu/MagiskSU.git
-[submodule "magiskpolicy"]
-	path = native/jni/magiskpolicy
-	url = https://github.com/topjohnwu/magiskpolicy.git
-[submodule "MagiskManager"]
-	path = app
-	url = https://github.com/topjohnwu/MagiskManager.git
 [submodule "busybox"]
 	path = native/jni/external/busybox
 	url = https://github.com/topjohnwu/ndk-busybox.git
@@ -28,3 +19,12 @@
 [submodule "nanopb"]
 	path = native/jni/external/nanopb
 	url = https://github.com/nanopb/nanopb.git
+[submodule "mincrypt"]
+	path = native/jni/external/mincrypt
+	url = https://github.com/topjohnwu/mincrypt.git
+[submodule "pcre"]
+	path = native/jni/external/pcre
+	url = https://android.googlesource.com/platform/external/pcre
+[submodule "termux-elf-cleaner"]
+	path = tools/termux-elf-cleaner
+	url = https://github.com/termux/termux-elf-cleaner.git
